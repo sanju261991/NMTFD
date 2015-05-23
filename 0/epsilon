@@ -40,12 +40,6 @@ boundaryField
         type            epsilonWallFunction;
         value           uniform 14.855;
     }
-    fixedWall
-    {
-        type            epsilonWallFunction;
-        value           uniform 14.855;
-    }
-
     frontAndBack
     {
         type            empty;

@@ -31,19 +31,13 @@ boundaryField
         type            zeroGradient;
     }
 
-    fixedWalls
-    {
-        type            fixedValue;
-        value           uniform (0 0 0);
-    }
-
     upperWall
     {
         type            fixedValue;
         value           uniform (0 0 0);
     }
 
-    lowerWalls
+    lowerWall
     {
         type            fixedValue;
         value           uniform (0 0 0);

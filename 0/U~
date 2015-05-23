@@ -23,18 +23,12 @@ boundaryField
     inlet
     {
         type            fixedValue;
-        value           uniform (1 0 0);
+        value           uniform (80 0 0);
     }
 
     outlet
     {
         type            zeroGradient;
-    }
-
-    fixedWalls
-    {
-        type            fixedValue;
-        value           uniform (0 0 0);
     }
 
     upperWall
@@ -43,7 +37,7 @@ boundaryField
         value           uniform (0 0 0);
     }
 
-    lowerWalls
+    lowerWall
     {
         type            fixedValue;
         value           uniform (0 0 0);
